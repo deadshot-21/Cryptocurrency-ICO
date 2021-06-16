@@ -1,0 +1,128 @@
+body{
+	background-color: #101820;
+	size: 100%;
+}
+.row {
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.progress{
+	width: 750px;
+	margin:auto;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #101820;
+    font-size: 1.6rem;
+    font-family: 'Fredoka One', cursive;
+}
+.progress-bar{
+	background-color: #F2AA4C;
+}
+.nav>li>a {
+    padding: 15px 25px;
+}
+.input-group{
+	width: 225px;
+	margin:auto;
+}
+p,h1,h4,h2{
+	color: #F2AA4C;
+	font-family: 'Fredoka One', cursive;
+}
+.navbar-default{
+	background-color: #F2AA4C;
+	border-color: #F2AA4C;
+}
+.intro-1{
+	margin-left: 60px;
+	padding-right: 10px;
+}
+.intro-2{
+	margin-left: 200px;
+}
+.intro-1, .intro-2{
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+.intro-3{
+	margin-top: 25px;
+}
+.intro-4{
+	margin-left: 40px;
+	margin-top: 60px;
+	font-size: 18px;
+}
+h1{
+	font-size: 6rem;
+}
+p{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-size: 18px;
+}
+button{
+	background-color: #101820;
+	
+}
+.btn-group-lg>.btn, .btn-lg {
+	border: 1px solid #F2AA4C;
+}
+.form-control{
+	background-color: #101820;
+	color: #F2AA4C;
+	font-weight: 500;
+	font-family: 'Fredoka One', cursive; 
+}
+.input-group .form-control {
+	border: 1px solid #F2AA4C;
+}
+.input-group-btn>.btn {
+	color:#F2AA4C;
+	font-weight: 500;
+	font-family: 'Fredoka One', cursive;
+}
+h2{
+	margin-bottom: 15px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+.brand{
+	width:170px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "VIT-token-sale",
+  "version": "1.0.0",
+  "description": "VIT Token Sale ICO",
+  "main": "truffle.js",
+  "directories": {
+  	"test": "test"
+  },
+  "scripts":{
+  	"dev": "lite-server"
+  },
+  "author": "Soham Faldu",
+  "license":"ISC",
+  "devDependencies":{
+  	"lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "web3": "^1.3.6"
+  }
+}

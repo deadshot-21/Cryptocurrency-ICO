@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VIT token</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="Soham new 1.png" class="brand">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Roadmap</a></li>
+        <li><a href="#">Milestones</a></li>
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+  </div><!-- /.container-fluid -->
+</nav>
+	<div class="row">
+		<div class="col-lg-3 intro-1 text-center">
+			<h1 >VIT TOKEN</h1>
+			<h1 >ICO SALE</h1>
+			<div class="y">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-reddit"></a>
+			</div>
+		</div>
+		<div class="col-lg-6 intro-2">
+			<h1 class="text-center">PUBLIC SALE IS LIVE</h1>
+			<p class="text-center">
+			Token price is <span class="token-price"> </span> Ether.
+			</p>
+			<form onSubmit="App.buyTokens(); return false;" role="form">
+            <div class="form-group">
+              <div class="input-group">
+                <input id="numberOfTokens" class="form-control input-lg" type="number" name="number" value="1" min="1" pattern="[0-9]">
+                </input>
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-dark btn-lg">Buy Tokens</button>
+                </span>
+              </div>
+            </div>
+          </form>
+		</div>
+        
+    <div class="row">  
+		<div id="content" class="text-center col-lg-12 intro-3">
+			<h2>Hurry up 20% bonus live</h2>
+           <div class="progress">
+              <div id="progress" class="progress-bar progress-bar-striped active" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          <p><span class="tokens-sold"></span> / <span class="tokens-available"></span> tokens sold</p>
+          
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 intro-4">
+			<h4>Your Account</h4>
+			<p id="accountAddress"></p>
+	        <p>Tokens Owned: <span class="vit-balance"> </span>&nbsp;VIT</p>
+        </div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/truffle-contract.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
